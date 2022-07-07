@@ -16,6 +16,7 @@ async def start_database():
    print("3")
 
 
+
 @app.get("/", tags=["Root"])
 async def read_root():
     print("4")
